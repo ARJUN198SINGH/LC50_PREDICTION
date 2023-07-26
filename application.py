@@ -9,8 +9,8 @@ application = Flask(__name__)
 app=application
 
 
-model=pickle.load(open('models/model.pkl','rb'))
-standard_scaler=pickle.load(open('models/preprocessor.pkl','rb'))
+model=pickle.load(open('artifacts/model.pkl','rb'))
+standard_scaler=pickle.load(open('artifacts/preprocessor.pkl','rb'))
 # pca=pickle.load(open('models/pcapokemon.pkl','rb'))
 
 
